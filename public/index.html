@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KalehandyaWeb | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="style2.css" rel="stylesheet" />
+  </head>
+
+  <body id="header">
+    <nav class="flex flex-col items-center p-4 md:flex-row md:justify-between bg-[#252734]" data-aos="fade-left">
+      <div class="flex items-center mb-4 md:mb-0 transition-transform duration-300 transform md:hover:scale-105">
+        <h1 class="text-white text-3xl font-bold mr-8"> <!-- Add mr-16 for right margin -->
+          Kalehandya<span class="text-[#FF9100]">Web</span>
+        </h1>
+        <!-- Tombol hamburger untuk tampilan mobile -->
+        <button id="toggleBtn" class="ml-auto p-3 items-center text-white focus:outline-none md:hidden">
+          <svg class="w-8 h-8 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path id="burgerIcon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+      <!-- Daftar menu yang ditampilkan pada tampilan desktop -->
+      <div class="hidden space-x-4 md:flex mr-16 font-medium text-2xl" style="overflow-y: hidden;">
+        <a href="#" class="text-white hover:text-[#FF9100] hover:underline-offset-4 transition-transform duration-300 transform md:hover:scale-105">Home</a>
+        <a href="#sertifikat" class="text-white hover:text-[#FF9100] hover:underline-offset-4 transition-transform duration-300 transform md:hover:scale-105">Certificates</a>
+        <a href="#portofolio" class="text-white hover:text-[#FF9100] hover:underline-offset-4 transition-transform duration-300 transform md:hover:scale-105">Portfolio</a>
+      </div>
+      <!-- Daftar menu yang ditampilkan pada tampilan mobile -->
+      <div id="mobileMenu" class="hidden p-2 font-medium text-2xl space-y-2 md:hidden transform transition-transform duration-300">
+        <a href="#" class="block text-white text-center hover:text-[#FF9100] transition-transform duration-300 transform">Home</a>
+        <a href="#sertifikat" class="block text-white text-center hover:text-[#FF9100] transition-transform duration-300 transform">Certificates</a>
+        <a href="#portofolio" class="block text-white text-center hover:text-[#FF9100] transition-transform duration-300 transform">Portfolio</a>
+      </div>
+    </nav>
+    
+
+    <!-- Bagian Home -->
+    <div class="container w-full h-full flex flex-col-reverse md:flex-row items-center justify-center bg-[#252734]">
+      <div class="container-2 mt-52 p-4 flex flex-col md:flex-row items-center justify-between" data-aos="fade-right">
+        <div class="text-center md:text-left mb-4 md:mb-0 md:order-1">
+          <h2 class="text-[#FF9100] font-medium text-xl md:text-2xl lg:text-3xl">Hello,</h2>
+          <h1 class="text-3xl md:text-5xl text-white font-bold mb-1 animate-pulse" style="overflow-y: hidden;">I Am Angger Kalehandya Sutarto</h1>
+          <h4 class="text-xl md:text-2xl mb-1 text-[#FF9100] font-medium">Web Developer ||</h4>
+          <h5 class="text-white text-xl md:text-2xl font-medium">Studying at <span class="font-bold text-[#FF9100]">SMK Wikrama Bogor</span></h5>
+          <div class="icon flex justify-start space-x-4 mt-4 md:mt-8 text-2xl md:text-4xl lg:text-5xl ">
+            <a href="www.linkedin.com/in/angger-kalehandya-sutarto-a8744924a"><i class="fa-brands fa-linkedin text-white p-2 rounded-full"></i></a>
+            <a href="https://wa.me/628987547926" target="_blank"><i class="fa-brands fa-whatsapp text-white p-2 rounded-full"></i></a>
+            <a href="https://github.com/Kalenyyy"><i class="fa-brands fa-github text-white p-2 rounded-full"></i></a>
+            <a href="https://instagram.com/kalehandyaa._?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram text-white p-2 rounded-full"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="image-right flex justify-center md:justify-end md:order-2 mt-4 md:mt-0" data-aos="fade-left">
+        <img src="img/foto_saya_fix.png" alt="My Photo" class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full z-0" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+
+  <!-- about me -->
+  <div class="about mx-auto w-full p-8 mt-32 bg-[#333646] text-white text-center" data-aos="fade-up" id="about">
+    <h1 class="text-3xl font-bold mb-4 bg-[#333646]">About Me</h1>
+    <hr class="border-l border-[#FF9100] mb-4">
+    <h2 class="text-[#FF9100] text-2xl font-medium mb-4 bg-[#333646]">“Key of Success adalah Kunci Keberhasilan”</h2>
+    <p class="text-lg font-medium md:text-base bg-[#333646] p-3">
+        Saya pemuda kelahiran di Bogor tahun 2007 saat ini sedang ditempa di 
+        <span class="text-[#FF9100] bg-[#333646] text-lg font-medium md:text-base">SMK Wikrama Bogor,</span> saya mampu bekerja secara individu maupun berkolaborasi dengan tim, saya berumur 
+        <span class="text-[#FF9100] bg-[#333646] text-lg font-medium md:text-base">16</span> Tahun, meskipun umur saya terbilang masih muda tetapi saya memiliki beberapa skill yang dapat diandalkan seperti 
+        <span class="text-[#FF9100] bg-[#333646] text-lg font-medium md:text-base">Laravel, Tailwind CSS, Bootstrap, Figma,</span> dan sedikit memahami 
+        <span class="text-[#FF9100] bg-[#333646] text-lg font-medium md:text-base">Vue Js.</span> 
+        Cek detail dibawah
+    </p>
+    <i class="fa-solid fa-arrow-down text-[#FF9100] bg-[#333646] text-3xl mt-3"></i>
+  </div>
+
+  <div class="skills mx-auto w-full p-8 mt-10 text-white text-center">
+    <h1 class="text-3xl font-bold mb-4">My Skills</h1>
+    <hr class="border-l border-[#FF9100] mb-4"> 
+
+    <!-- image -->
+    <div class="flex flex-wrap justify-center mt-10" data-aos="fade-left">
+      <!-- First Row -->
+      <img src="img/html.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0 md:mr-16 mr-8">
+      <img src="img/css.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0 md:mr-16 mr-8">
+      <img src="img/figma.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0 md:mr-16 mr-8">
+      <img src="img/bootstrap.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0">
+    </div>
+    <!-- Second Row -->
+    <div class="flex justify-center mb-4 mt-10" data-aos="fade-up">
+        <img src="img/tailwind-removebg-preview.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0 md:mr-16 mr-8">
+        <img src="img/laravel.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0 md:mr-16 mr-8">
+        <img src="img/git.png" alt="" class="w-16 h-16 md:w-24 md:h-24 mb-4 md:mb-0">
+    </div>
+  
+    <!-- container card -->
+    <div class="flex flex-col md:flex-row justify-center mt-10" data-aos="fade-right">
+      <!-- Card 1 -->
+      <div class="card w-full md:w-64 h-auto bg-[#FF9100] p-6 rounded-lg shadow-lg flex flex-col justify-center items-center mb-4 md:mr-10">
+          <img src="img/computer.svg" alt="Computer Icon" class="w-16 h-16 mb-4 bg-[#FF9100]">
+          <h1 class="text-white text-2xl font-bold mb-2 bg-[#FF9100]">FrontEnd Developer</h1>
+          <p class="text-white text-center bg-[#FF9100]">Memahami cara menggunakan HTML, CSS dan sedikit JS.</p>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="card w-full md:w-64 h-auto bg-[#FF9100] p-6 rounded-lg shadow-lg flex flex-col justify-center items-center mb-4">
+          <img src="img/code.png" alt="Computer Icon" class="w-16 h-16 mb-4 bg-[#FF9100]">
+          <h1 class="text-white text-2xl font-bold mb-2 bg-[#FF9100]">BackEnd Developer</h1>
+          <p class="text-white text-center bg-[#FF9100]">Memahami cara menggunakan Framework Laravel.</p>
+      </div>
+  </div>
+
+  <!-- sertifikat -->
+    <div class=" mx-auto bg-[#333646] p-8 mt-10 text-white text-center" id="sertifikat">
+      <h1 class="text-3xl font-bold mb-4 mx-auto w-full h-full bg-[#333646]">Certificates</h1>
+      <hr class="border-l border-[#FF9100] mb-4">
+      
+      <div class="glide mx-auto w-full bg-[#333646]" data-aos="fade-left" id="sertifikatGlide" style="overflow-y: hidden;">
+        <div class="glide__track mx-auto w-full h-full bg-[#333646]" data-glide-el="track">
+            <ul class="glide__slides mx-auto w-full h-full bg-[#333646]">
+                <!-- Add your certificate slides here -->
+                <li class="glide__slide w-full">
+                    <img src="img/sertifikat-1.png" alt="sertifikat 1" class="certificate-image" onclick="openModal('img/sertifikat-1.png')">
+                </li>
+                <li class="glide__slide">
+                    <img src="img/sertifikat-2.png" alt="sertifikat 2" class="certificate-image" onclick="openModal('img/sertifikat-2.png')">
+                </li>
+                <li class="glide__slide">
+                    <img src="img/sertifikat-3.png" alt="sertifikat 3" class="certificate-image" onclick="openModal('img/sertifikat-3.png')">
+                </li>
+                <li class="glide__slide">
+                    <img src="img/sertifikat-4.png" alt="sertifikat 4" class="certificate-image" onclick="openModal('img/sertifikat-4.png')">
+                </li>
+                <li class="glide__slide">
+                    <img src="img/sertifikat-5.png" alt="sertifikat 5" class="certificate-image" onclick="openModal('img/sertifikat-5.png')">
+                </li>
+            </ul>
+        </div>
+    
+        <div class="glide__arrows flex justify-between absolute top-1/2 transform -translate-y-1/2 ">
+            <button class="glide__arrow glide__arrow--left bg-transparent text-[#FF9100]">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right bg-transparent text-[#FF9100]">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+      </div>
+      <p class="bg-[#333646] flex items-center justify-center mt-3">
+        <i class="fa-brands fa-linkedin bg-[#333646] text-white mr-2 text-lg"></i>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7139526694582841344/" class="text-[#FF9100] bg-[#333646] text-lg">More in LinkedIn</a>
+      </p>    
+    </div>
+
+    <!-- gallery Portofolio -->
+    <div class="portofolio w-full h-full p-8 mt-10" id="portofolio">
+      <h1 class="text-3xl font-bold mb-4 mx-auto ">Gallery Portofolio</h1>
+      <hr class="border-l border-[#FF9100] mb-4">
+    <!-- Glide Carousel -->
+    <div class="glide carousel-container mt-8 bg-[#333646]" data-aos="fade-right" id="portofolioGlide">
+      <div class="glide__track" data-glide-el="track">  
+        <ul class="glide__slides">
+
+          <li class="glide__slide">
+            <div class="card-content flex bg-[#333646] p-4" id="cardContent">
+              <!-- Full-width image -->
+              <img src="img/project-3.png" alt="Card Image" class="card-img w-full h-auto p-2">
+              <!-- Text overlay -->
+              <div class="flex flex-col w-full justify-center items-center text-center bg-[#333646] p-5">
+                <h2 class="text-3xl font-bold text-[#FF9100] mb-2 bg-[#333646]">First Project</h2>
+                <hr class="border-l border-[#FF9100] mb-4 w-full">
+                <div class="flex items-center text-white bg-[#333646]">
+                  <span class="text-5xl p-1 bg-[#333646]">
+                    <i class="fa-brands fa-php mr-2 bg-[#333646] text-blue-950" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-css3-alt mr-2 bg-[#333646] text-blue-600" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-js bg-[#333646] text-yellow-400 mr-2" style="overflow-y: hidden;"></i>
+                  </span>
+                </div>
+                <p class="text-white font-medium bg-[#333646]">Ini project pertama saya membuat website donasi masjid, membuat tampilan, mengatur operasi CRUD(Create, Read, Update, Delete) untuk menjalankan donasi, saya membuat website ini menggunakan PHP, CSS, dan sedikit JS.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="glide__slide">
+            <div class="card-content flex bg-[#333646] p-4" id="cardContent">
+              <!-- Full-width image -->
+              <img src="img/project-1.png" alt="Card Image" class="card-img w-full h-auto p-2">
+              <!-- Text overlay -->
+              <div class="flex flex-col w-full justify-center items-center text-center bg-[#333646] p-5">
+                <h2 class="text-3xl font-bold text-[#FF9100] mb-2 bg-[#333646]">Nurul Amir Website</h2>
+                <hr class="border-l border-[#FF9100] mb-4 w-full">
+                <div class="flex items-center text-white bg-[#333646]">
+                  <span class="text-5xl p-1 bg-[#333646]">
+                    <i class="fa-brands fa-laravel mr-2 bg-[#333646] text-red-600" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-bootstrap mr-2 text-purple-700 bg-[#333646]" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-js bg-[#333646] text-yellow-400" style="overflow-y: hidden;"></i>
+                  </span>
+                </div>
+                <p class="text-white font-medium bg-[#333646]">Pada Project ini saya menjadi bagian FrontEnd Developer, mengatur dan mengurus tampilan agar website menarik untuk dilihat, dan tentu saja di responsivekan agar tampilan di hp menarik.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="glide__slide">
+            <div class="card-content flex bg-[#333646] p-4" id="cardContent">
+              <!-- Full-width image -->
+              <img src="img/project-2.png" alt="Card Image" class="card-img w-full h-auto p-2">
+              <!-- Text overlay -->
+              <div class="flex flex-col w-full justify-center items-center text-center bg-[#333646] p-5">
+                <h2 class="text-3xl font-bold text-[#FF9100] mb-2 bg-[#333646]">Business Website</h2>
+                <hr class="border-l border-[#FF9100] mb-4 w-full">
+                <div class="flex items-center text-white bg-[#333646]">
+                  <span class="text-5xl p-1 bg-[#333646]">
+                    <i class="fa-brands fa-laravel mr-2 bg-[#333646] text-red-600" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-vuejs mr-2 bg-[#333646] text-green-800" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-js bg-[#333646] text-yellow-400 mr-2" style="overflow-y: hidden;"></i>
+                    <i class="fa-brands fa-bootstrap text-purple-700 bg-[#333646]" style="overflow-y: hidden;"></i>
+                  </span>
+                </div>
+                <p class="text-white font-medium bg-[#333646]">Pada project ini saya mengikuti kelas Industri selama 1 minggu, bagaimana cara memakai Vue Js untuk tampilan FrontEnd, menangkap API dengan Laravel, dengan membuat Website Business.</p>
+              </div>
+            </div>
+          </li>
+                                                             
+        </ul>
+      </div>
+      <div class="glide__arrows flex justify-between absolute top-1/2 transform -translate-y-1/2 ">
+        <button class="glide__arrow glide__arrow--left bg-transparent text-[#FF9100]">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="glide__arrow glide__arrow--right bg-transparent text-[#FF9100]">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+    </div>
+    <!-- penutup galerii -->
+
+    <!-- footer babyyyyy!!!!!!!! -->
+    <div class="footer" data-aos="fade-down">
+      <div class="icon flex justify-center space-x-4 mt-4 md:mt-8 text-2xl md:text-4xl lg:text-5xl ">
+        <a href="www.linkedin.com/in/angger-kalehandya-sutarto-a8744924a"><i class="fa-brands fa-linkedin text-white p-2 rounded-full"></i></a>
+        <a href="https://wa.me/628987547926" target="_blank"><i class="fa-brands fa-whatsapp text-white p-2 rounded-full"></i></a>
+        <a href="https://github.com/Kalenyyy"><i class="fa-brands fa-github text-white p-2 rounded-full"></i></a>
+        <a href="https://instagram.com/kalehandyaa._?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram text-white p-2 rounded-full"></i></a>
+      </div>
+    </div>
+    
+
+
+  
+  
+  
+  
+  
+
+
+    
+    
+    
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Hamburger icon
+  const toggleBtn = document.getElementById('toggleBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const burgerIcon = document.getElementById('burgerIcon');
+
+  toggleBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+    burgerIcon.classList.toggle('animate-burger');
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+      new Glide('#sertifikatGlide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        focusAt: 'center',
+        autoplay: 5000, // Tambahkan properti autoplay dengan nilai interval waktu yang diinginkan (dalam milidetik)
+        animationDuration: 800,
+        breakpoints: {
+          768: {
+            perView: 1
+          },
+          992: {
+            perView: 2
+          }
+        },
+      }).mount();
+
+      
+      new Glide('#portofolioGlide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 1,
+        focusAt: 'center',
+        autoplay: 8000, 
+        animationDuration: 800,
+      }).mount();
+    });
+
+    AOS.init({
+        duration: 1000, // Durasi animasi dalam milidetik
+        offset: 100, // Jarak dari tepi viewport sebelum animasi dimulai
+        easing: 'linear', // Tipe animasi (misal: 'ease', 'linear', 'ease-in-out', dst.)
+    });
+  
+  </script>    
+  </body>
+</html>
