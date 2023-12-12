@@ -21,7 +21,22 @@ html {
   .modal-open {
     overflow: hidden;
 }
+#portofolioGlide .glide__arrow {
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #FF9100; /* Set the desired text color */
+}
 
+#portofolioGlide .glide__arrow--left {
+  margin-right: 10px;
+}
+
+#portofolioGlide .glide__arrow--right {
+  margin-left: 10px;
+}
 /* Style for blurred background when modal is open */
 .modal-blur {
     backdrop-filter: blur(8px);

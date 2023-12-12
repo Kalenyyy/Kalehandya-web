@@ -14,9 +14,9 @@
   </head>
 
   <body id="header">
-    <nav class="flex flex-col items-center p-4 md:flex-row md:justify-between bg-[#252734]" data-aos="fade-left">
+    <nav class="flex flex-col items-center p-5 md:flex-row md:justify-between bg-[#252734]" data-aos="fade-left">
       <div class="flex items-center mb-4 md:mb-0 transition-transform duration-300 transform md:hover:scale-105">
-        <h1 class="text-white text-3xl font-bold mr-8"> <!-- Add mr-16 for right margin -->
+        <h1 class="text-white text-3xl font-bold ml-8"> <!-- Add mr-16 for right margin -->
           Kalehandya<span class="text-[#FF9100]">Web</span>
         </h1>
         <!-- Tombol hamburger untuk tampilan mobile -->
@@ -29,16 +29,18 @@
         </button>
       </div>
       <!-- Daftar menu yang ditampilkan pada tampilan desktop -->
-      <div class="hidden space-x-4 md:flex mr-16 font-medium text-2xl" style="overflow-y: hidden;">
+      <div class="hidden space-x-4 md:flex mr-16 font-medium text-xl" style="overflow-y: hidden;">
         <a href="#" class="text-white hover:text-[#FF9100] hover:underline-offset-4 transition-transform duration-300 transform md:hover:scale-105">Home</a>
         <a href="#sertifikat" class="text-white hover:text-[#FF9100] hover:underline-offset-4 transition-transform duration-300 transform md:hover:scale-105">Certificates</a>
         <a href="#portofolio" class="text-white hover:text-[#FF9100] hover:underline-offset-4 transition-transform duration-300 transform md:hover:scale-105">Portfolio</a>
+        <a href="./public/angger-kalehandya-sutarto.pdf" title="" target="_blank" download  class="text-white hover:text-[#FF9100] hover:underline-offset-4">Download CV</a>       
       </div>
       <!-- Daftar menu yang ditampilkan pada tampilan mobile -->
-      <div id="mobileMenu" class="hidden p-2 font-medium text-2xl space-y-2 md:hidden transform transition-transform duration-300">
+      <div id="mobileMenu" class="hidden p-2 font-medium text-  xl space-y-2 md:hidden transform transition-transform duration-300">
         <a href="#" class="block text-white text-center hover:text-[#FF9100] transition-transform duration-300 transform">Home</a>
         <a href="#sertifikat" class="block text-white text-center hover:text-[#FF9100] transition-transform duration-300 transform">Certificates</a>
         <a href="#portofolio" class="block text-white text-center hover:text-[#FF9100] transition-transform duration-300 transform">Portfolio</a>
+        <a href="./public/angger-kalehandya-sutarto.pdf" title="" target="_blank" download class="block text-white text-center hover:text-[#FF9100]">Download CV</a>
       </div>
     </nav>
     
@@ -52,10 +54,10 @@
           <h4 class="text-xl md:text-2xl mb-1 text-[#FF9100] font-medium">Web Developer ||</h4>
           <h5 class="text-white text-xl md:text-2xl font-medium">Studying at <span class="font-bold text-[#FF9100]">SMK Wikrama Bogor</span></h5>
           <div class="icon flex justify-start space-x-4 mt-4 md:mt-8 text-2xl md:text-4xl lg:text-5xl ">
-            <a href="https://linkedin.com/in/kalehandyaa"><i class="fa-brands fa-linkedin text-white p-2 rounded-full"></i></a>
+            <a href="https://linkedin.com/in/kalehandyaa" target="_blank"><i class="fa-brands fa-linkedin text-white p-2 rounded-full"></i></a>
             <a href="https://wa.me/628987547926" target="_blank"><i class="fa-brands fa-whatsapp text-white p-2 rounded-full"></i></a>
-            <a href="https://github.com/Kalenyyy"><i class="fa-brands fa-github text-white p-2 rounded-full"></i></a>
-            <a href="https://instagram.com/kalehandyaa._?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram text-white p-2 rounded-full"></i></a>
+            <a href="https://github.com/Kalenyyy" target="_blank"><i class="fa-brands fa-github text-white p-2 rounded-full"></i></a>
+            <a href="https://instagram.com/kalehandyaa._?igshid=NzZlODBkYWE4Ng==" target="_blank"><i class="fa-brands fa-instagram text-white p-2 rounded-full"></i></a>
           </div>
         </div>
       </div>
@@ -77,10 +79,10 @@
         <span class="text-[#FF9100] bg-[#333646] text-lg font-medium md:text-base">Vue Js.</span> 
         Cek detail dibawah
     </p>
-    <i class="fa-solid fa-arrow-down text-[#FF9100] bg-[#333646] text-3xl mt-3"></i>
+    <a href="#skills" class="bg-[#333646]"><i class="fa-solid fa-arrow-down text-[#FF9100] bg-[#333646] text-3xl mt-3 animate-bounce"></i></a>
   </div>
 
-  <div class="skills mx-auto w-full p-8 mt-10 text-white text-center">
+  <div class="skills mx-auto w-full p-8 mt-10 text-white text-center" id="skills">
     <h1 class="text-3xl font-bold mb-4">My Skills</h1>
     <hr class="border-l border-[#FF9100] mb-4"> 
 
@@ -105,14 +107,14 @@
       <div class="card w-full md:w-64 h-auto bg-[#FF9100] p-6 rounded-lg shadow-lg flex flex-col justify-center items-center mb-4 md:mr-10">
           <img src="public/img/computer.svg" alt="Computer Icon" class="w-16 h-16 mb-4 bg-[#FF9100]">
           <h1 class="text-white text-2xl font-bold mb-2 bg-[#FF9100]">FrontEnd Developer</h1>
-          <p class="text-white text-center bg-[#FF9100]">Memahami cara menggunakan HTML, CSS dan sedikit JS.</p>
+          <p class="text-white text-center bg-[#FF9100]">Memahami cara menggunakan HTML, CSS, Tailwind, Bootstrap dan sedikit JS.</p>
       </div>
   
       <!-- Card 2 -->
       <div class="card w-full md:w-64 h-auto bg-[#FF9100] p-6 rounded-lg shadow-lg flex flex-col justify-center items-center mb-4">
           <img src="public/img/code.png" alt="Computer Icon" class="w-16 h-16 mb-4 bg-[#FF9100]">
           <h1 class="text-white text-2xl font-bold mb-2 bg-[#FF9100]">BackEnd Developer</h1>
-          <p class="text-white text-center bg-[#FF9100]">Memahami cara menggunakan Framework Laravel.</p>
+          <p class="text-white text-center bg-[#FF9100]">Memahami cara menggunakan bahasa pemrograman PHP dan Framework Laravel.</p>
       </div>
   </div>
 
@@ -140,6 +142,9 @@
                 <li class="glide__slide">
                     <img src="public/img/sertifikat-5.png" alt="sertifikat 5" class="certificate-image" onclick="openModal('img/sertifikat-5.png')">
                 </li>
+                <li class="glide__slide">
+                    <img src="public/img/sertifikat-7_fix.png" alt="sertifikat 6" class="certificate-image" onclick="openModal('img/sertifikat-5.png')">
+                </li>
             </ul>
         </div>
     
@@ -154,7 +159,7 @@
       </div>
       <p class="bg-[#333646] flex items-center justify-center mt-3">
         <i class="fa-brands fa-linkedin bg-[#333646] text-white mr-2 text-lg"></i>
-        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7139526694582841344/" class="text-[#FF9100] bg-[#333646] text-lg">More in LinkedIn</a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7139526694582841344/" target="_blank" class="text-[#FF9100] bg-[#333646] text-lg">More in LinkedIn</a>
       </p>    
     </div>
 
@@ -182,7 +187,7 @@
                       <i class="fa-brands fa-js bg-[#333646] text-yellow-400 mr-2" style="overflow-y: hidden;"></i>
                     </span>
                   </div>
-                  <p class="text-white font-medium bg-[#333646]">Ini project pertama saya membuat website donasi masjid, membuat tampilan, mengatur operasi CRUD(Create, Read, Update, Delete) untuk menjalankan donasi, saya membuat website ini menggunakan PHP, CSS, dan sedikit JS.</p>
+                  <p class="text-white font-medium bg-[#333646]">Ini project pertama saya membuat website donasi masjid, membuat tampilan, mengatur operasi CRUD(Create, Read, Update, Delete) untuk menjalankan donasi, saya membuat website ini menggunakan PHP, CSS, dan JS.</p>
                 </div>
               </div>
             </li>
@@ -202,7 +207,7 @@
                       <i class="fa-brands fa-js bg-[#333646] text-yellow-400" style="overflow-y: hidden;"></i>
                     </span>
                   </div>
-                  <p class="text-white font-medium bg-[#333646]">Pada Project ini saya menjadi bagian FrontEnd Developer, mengatur dan mengurus tampilan agar website menarik untuk dilihat, dan tentu saja di responsivekan agar tampilan di hp menarik.</p>
+                  <p class="text-white font-medium bg-[#333646]">Pada Project ini saya menjadi bagian FrontEnd, mengatur dan mengurus tampilan agar website menarik untuk dilihat, dan tentu saja di responsivekan agar tampilan di hp menarik.</p>
                 </div>
               </div>
             </li>
@@ -213,7 +218,7 @@
                 <img src="public/img/project-2.png" alt="Card Image" class="card-img w-full h-auto p-2">
                 <!-- Text overlay -->
                 <div class="flex flex-col w-full justify-center items-center text-center bg-[#333646] p-5">
-                  <h2 class="text-3xl font-bold text-[#FF9100] mb-2 bg-[#333646]">Business Website</h2>
+                  <h2 class="text-3xl font-bold text-[#FF9100] mb-2 bg-[#333646]">Landing Page Business</h2>
                   <hr class="border-l border-[#FF9100] mb-4 w-full">
                   <div class="flex items-center text-white bg-[#333646]">
                     <span class="text-5xl p-1 bg-[#333646]">
@@ -223,7 +228,27 @@
                       <i class="fa-brands fa-bootstrap text-purple-700 bg-[#333646]" style="overflow-y: hidden;"></i>
                     </span>
                   </div>
-                  <p class="text-white font-medium bg-[#333646]">Pada project ini saya mengikuti kelas Industri selama 1 minggu, bagaimana cara memakai Vue Js untuk tampilan FrontEnd, menangkap API dengan Laravel, dengan membuat Website Business.</p>
+                  <p class="text-white font-medium bg-[#333646]">Pada project ini saya mengikuti kelas Industri selama 1 minggu, bagaimana cara memakai Vue Js untuk tampilan FrontEnd, menangkap API, dengan membuat Website Business.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="card-content flex bg-[#333646] p-4" id="cardContent">
+                <!-- Full-width image -->
+                <img src="public/img/project-5.png" alt="Card Image" class="card-img w-full h-auto p-2">
+                <!-- Text overlay -->
+                <div class="flex flex-col w-full justify-center items-center text-center bg-[#333646] p-5">
+                  <h2 class="text-3xl font-bold text-[#FF9100] mb-2 bg-[#333646]">Apotek App</h2>
+                  <hr class="border-l border-[#FF9100] mb-4 w-full">
+                  <div class="flex items-center text-white bg-[#333646]">
+                    <span class="text-5xl p-1 bg-[#333646]">
+                      <i class="fa-brands fa-laravel mr-2 bg-[#333646] text-red-600" style="overflow-y: hidden;"></i>
+                      <i class="fa-brands fa-js bg-[#333646] text-yellow-400 mr-2" style="overflow-y: hidden;"></i>
+                      <i class="fa-brands fa-bootstrap text-purple-700 bg-[#333646]" style="overflow-y: hidden;"></i>
+                    </span>
+                  </div>
+                  <p class="text-white font-medium bg-[#333646]">Project ini saya membuat aplikasi apotek untuk admin dan kasir, saya belajar tentang bagaimana caranya menggunakan middleware, DB Seeder, pengecekan akun jika Admin atau Kasir, menggunakan framework Laravel.</p>
                 </div>
               </div>
             </li>
@@ -244,11 +269,8 @@
 
     <!-- footer babyyyyy!!!!!!!! -->
     <div class="footer" data-aos="fade-down">
-      <div class="icon flex justify-center space-x-4 mt-4 md:mt-8 text-2xl md:text-4xl lg:text-5xl ">
-        <a href="https://linkedin.com/in/kalehandyaa"><i class="fa-brands fa-linkedin text-white p-2 rounded-full"></i></a>
-        <a href="https://wa.me/628987547926" target="_blank"><i class="fa-brands fa-whatsapp text-white p-2 rounded-full"></i></a>
-        <a href="https://github.com/Kalenyyy"><i class="fa-brands fa-github text-white p-2 rounded-full"></i></a>
-        <a href="https://instagram.com/kalehandyaa._?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram text-white p-2 rounded-full"></i></a>
+      <div class="icon flex justify-center space-x-4 mt-4 md:mt-8 text-lg md:text-lg lg:text-lg">
+        <p>&copy; Copyright 2023, <span class="text-[#FF9100]">Angger Kalehandya</span></p>
       </div>
     </div>
     
